@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #define inf 999999
-#define N 4
+#define N 4 
 using namespace std;
  
 class aresta{
@@ -109,12 +109,6 @@ void DJIKSTRA(grafo G, int s){
         }
     }
 }
- 
-// int matriz[][N]={{0,10,0,0,5},
-//                  {0,0,1,0,2},
-//                  {0,0,0,4,0},
-//                  {7,0,6,0,0},
-//                  {0,3,9,2,0}};
  
 int matriz[][N]={{0,3,7,5},
                  {0,0,3,1},
